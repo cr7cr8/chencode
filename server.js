@@ -20,9 +20,9 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use(cors())
 
-app.get("/",(req,res,next)=>{
-    res.send("hihihih")
-})
+// app.get("/",(req,res,next)=>{
+//     res.send("hihihih")
+// })
 
 
 app.post("/upload",
