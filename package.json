@@ -18,5 +18,13 @@
     "multer": "^1.4.4"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "��#\u0000 \u0000c\u0000h\u0000e\u0000n\u0000c\u0000o\u0000d\u0000e\u0000\r\u0000 \u0000",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cr7cr8/chencode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cr7cr8/chencode/issues"
+  },
+  "homepage": "https://github.com/cr7cr8/chencode#readme"
 }
