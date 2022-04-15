@@ -109,5 +109,4 @@ app.delete("/:createTime?", (req, res, next) => {
 
 app.get("*", express.static(path.resolve(__dirname, "./clientPack/build")))
 
-app.listen(80)
-
+app.listen(process.env.PORT || 80)
