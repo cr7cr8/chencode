@@ -7,9 +7,7 @@ const multer = require("multer");
 const { Blob } = require("buffer");
 const imgbbUploader = require("imgbb-uploader");
 const path = require("path")
-// imgbbUploader("5bc9b6d33b513abac7369ade2d2df6f6", "./clientdev/public/logo512.png")
-//     .then((response) => console.log(response))
-//     .catch((error) => console.error(error));
+
 
 const { User, ImageInfo, Message } = require("./db/schema");
 //const clientPack = require("./clientPack/aaa.txt")
@@ -21,6 +19,10 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.use(cors())
+
+app.get("/",(req,res,next)=>{
+    res.send("hihihih")
+})
 
 
 app.post("/upload",
