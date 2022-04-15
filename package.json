@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@react-hook/resize-observer": "^1.2.5",
     "axios": "^0.26.1",
     "cors": "^2.8.5",
     "express": "^4.17.3",
@@ -17,7 +16,6 @@
     "mongoose": "^6.2.10",
     "multer": "^1.4.4"
   },
-  "devDependencies": {},
   "description": "��#\u0000 \u0000c\u0000h\u0000e\u0000n\u0000c\u0000o\u0000d\u0000e\u0000\r\u0000 \u0000",
   "repository": {
     "type": "git",
