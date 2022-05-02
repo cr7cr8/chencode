@@ -85,7 +85,7 @@ app.get("/getMessage", (req, res, next) => {
 
 
 
-    Message.find({}).sort({ createTime: -1 }).limit(5).then(docs => {
+    Message.find({}).sort({ createTime: -1 }).limit(999).then(docs => {
 
         //   console.log(docs)
         res.json(docs)
